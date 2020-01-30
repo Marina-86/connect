@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	$(".slider").owlCarousel({
+		loop:true,
+		responsiveClass:true,
+		nav:true,
+		navText:[],
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:1,
+				nav:false
+			},
+			1000:{
+				items:1,
+				nav:true,
+			}
+		}
+	});
+});

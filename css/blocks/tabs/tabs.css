@@ -1,0 +1,38 @@
+.tabs {
+	
+}
+.tabs_controls {
+	
+}
+.tabs_controls-item {
+	display: inline-block;
+	margin-right: 10px;
+	background: green;
+	transition: (.2s);
+}
+.tabs_controls-item:hover {
+	background: red;
+}
+.tabs_controls-item.active {
+	background: red;
+}
+.tabs_controls-link {
+	color: #fff;
+	text-decoration: none;
+	display: block; 
+	padding: 3px 7px;
+}
+.tabs_list {
+	border: 1px solid grey;
+	padding: 5px;
+}
+.tabs_item {
+	list-style: none;
+	display: none;
+}
+.tabs_item.active {
+	display: block;
+}
+.tabs_text {
+	
+}

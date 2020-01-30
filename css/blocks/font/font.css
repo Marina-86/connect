@@ -1,0 +1,14 @@
+.font {
+	display: flex;
+}
+.font-1 {
+	display: block;
+    float: left;
+}
+.font-1:before {
+	content: "\f039";
+    font-family: 'Font Awesome\ 5 Free';
+	color: #800300;
+    font-size: 16px;
+	font-weight: 900;
+}
