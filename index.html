@@ -38,6 +38,34 @@
 		
 	</head>
 <body>
+<!--всплывающее окно при входе на сайт-->
+
+<div id="my_modal-time" class="modal-time" data-toggle="modal-time">	
+	<div id="my_modal-content" class="modal_content">
+		<span class="close_modal-time_window">×</span>
+		<p>Модальное окно!</p>
+	</div>
+</div>
+
+<!--
+<button id="btn_modal_window">Open Modal</button>
+<div id="my_modal" class="modal">
+	<div class="modal_content">
+		<span class="close_modal_window">×</span>
+		<p>Модальное окно!</p>
+	</div>
+</div>
+-->
+<!--
+<div id="bg_popup">
+	<div id="popup">
+		<h1>Заголовок</h1>
+		<p>Пример модального окна, всплывающего при загрузке сайта.</p>
+		<a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">X</a>
+	</div>
+</div>
+--> 
+<!--всплывающее окно при входе на сайт-->
 <header>
     <div class="container">
 		<div class="row">
@@ -238,7 +266,12 @@
 <section class="main">
 	<div class="container">
 		<div class="row">
-			<div class="col-12"><h3>Всплывающее окно</h3></div>
+			<div class="col-12"><h3>Всплывающие окна</h3></div>
+			<a class="registration-trigger">
+				<span class="registration-trigger_text">
+				Регистрация
+				</span>
+			</a>
 			<div class="popup" id="registration">
 				<div class="popup_inner">
 					<div class="popup_title">
@@ -269,6 +302,16 @@
 					</div>
 				</div>
 			</div>
+			
+			<button id="btn_modal_window">Open Modal</button>
+			<div id="my_modal" class="modal">
+				<div class="modal_content">
+					<span class="close_modal_window">×</span>
+					<p>Модальное окно!</p>
+				</div>
+			</div>
+			
+			
 		</div>
 	</div>
 </section>
@@ -441,6 +484,8 @@
 	<script src="js/accordeon/accordeon.js"> </script>
 	<?/*скрипт для аккордеона*/?>
 	
-	
+	<script src="js/popup/popup.js"> </script>
+	<script src="js/popup/modal-click.js"> </script>
+	<script src="js/popup/modal-enter.js"> </script>
 </body>
 </html>
