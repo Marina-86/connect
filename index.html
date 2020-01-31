@@ -34,6 +34,8 @@
 		<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 		<link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 		<?/*OWL-CAROUSEL*/?>
+		
+		
 	</head>
 <body>
 <header>
@@ -236,6 +238,43 @@
 <section class="main">
 	<div class="container">
 		<div class="row">
+			<div class="col-12"><h3>Всплывающее окно</h3></div>
+			<div class="popup" id="registration">
+				<div class="popup_inner">
+					<div class="popup_title">
+						Регистрация
+					</div>
+					<form class="popup_row">
+						<label class="popup_row">
+							<span class="popup_row-title">
+								login
+							</span>
+							<input class="popup_row-input" type="text">
+						</label>
+						<label class="popup_row">
+							<span class="popup_row-title">
+								Mail
+							</span>
+							<input class="popup_row-input" type="text">
+						</label>
+						<label class="popup_row">
+							<span class="popup_row-title">
+								Password
+							</span>
+							<input class="popup_row-input" type="password" name="" id="" >
+						</label>
+					</form>
+					<div class="popup_row">
+						<input class="popup_row-submit">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="main">
+	<div class="container">
+		<div class="row">
 			<div class="col-12"><h3>Табы</h3></div>
 			<div class="tabs">
 				<ul class="tabs_controls">
@@ -369,7 +408,7 @@
 	<?/*подключение из библиотеки*/?>
 	<script src="libs/magnific-popup/dist/jquery.magnific-popup.js"></script>
 	<?/*подключение из папки js*/?>
-	<script src="js/magnific-popup-img.js"></script>
+	<script src="js/gallery/magnific-popup-img.js"></script>
 	<?/*MAGNIFIC-POPUP*/?>
 	
 	
@@ -383,7 +422,7 @@
 	<?/*подключение из библиотеки*/?>
 	<script src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 	<?/*подключение из папки js*/?>
-	<script src="js/slider.js"> </script>
+	<script src="js/slider/slider.js"> </script>
 	<?/*OWL-CAROUSEL*/?>
 	
 	
@@ -391,15 +430,17 @@
 	<?/*подключение из библиотеки*/?>
 	<script src="libs/digitalBush-jquery.maskedinput-9672630/dist/jquery.maskedinput.min.js"></script>
 	<?/*подключение из папки js*/?>
-	<script src="js/phone-mask.js"> </script>
+	<script src="js/phone-mask/phone-mask.js"> </script>
 	<?/*MASKED-INPUT*/?>
 	
 	<?/*скрипт для табов*/?>
-	<script src="js/tabs.js"> </script>
+	<script src="js/tabs/tabs.js"> </script>
 	<?/*скрипт для табов*/?>
 	
 	<?/*скрипт для аккордеона*/?>
-	<script src="js/accordeon.js"> </script>
+	<script src="js/accordeon/accordeon.js"> </script>
 	<?/*скрипт для аккордеона*/?>
+	
+	
 </body>
 </html>
