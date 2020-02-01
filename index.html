@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"> </script>
+		<![endif]-->
+		
 		<link href="css/index.css" type="text/css"  rel="stylesheet">
 		
 		<?/*JQUERY*/?>
@@ -47,25 +53,8 @@
 	</div>
 </div>
 
-<!--
-<button id="btn_modal_window">Open Modal</button>
-<div id="my_modal" class="modal">
-	<div class="modal_content">
-		<span class="close_modal_window">×</span>
-		<p>Модальное окно!</p>
-	</div>
-</div>
--->
-<!--
-<div id="bg_popup">
-	<div id="popup">
-		<h1>Заголовок</h1>
-		<p>Пример модального окна, всплывающего при загрузке сайта.</p>
-		<a class="close" href="#" title="Закрыть" onclick="document.getElementById('bg_popup').style.display='none'; return false;">X</a>
-	</div>
-</div>
---> 
 <!--всплывающее окно при входе на сайт-->
+
 <header>
     <div class="container">
 		<div class="row">
@@ -267,42 +256,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12"><h3>Всплывающие окна</h3></div>
-			<a class="registration-trigger">
-				<span class="registration-trigger_text">
-				Регистрация
-				</span>
-			</a>
-			<div class="popup" id="registration">
-				<div class="popup_inner">
-					<div class="popup_title">
-						Регистрация
-					</div>
-					<form class="popup_row">
-						<label class="popup_row">
-							<span class="popup_row-title">
-								login
-							</span>
-							<input class="popup_row-input" type="text">
-						</label>
-						<label class="popup_row">
-							<span class="popup_row-title">
-								Mail
-							</span>
-							<input class="popup_row-input" type="text">
-						</label>
-						<label class="popup_row">
-							<span class="popup_row-title">
-								Password
-							</span>
-							<input class="popup_row-input" type="password" name="" id="" >
-						</label>
-					</form>
-					<div class="popup_row">
-						<input class="popup_row-submit">
-					</div>
-				</div>
-			</div>
-			
 			<button id="btn_modal_window">Open Modal</button>
 			<div id="my_modal" class="modal">
 				<div class="modal_content">
@@ -310,8 +263,6 @@
 					<p>Модальное окно!</p>
 				</div>
 			</div>
-			
-			
 		</div>
 	</div>
 </section>
@@ -435,6 +386,35 @@
 		</div>
 	</div>
 </section>
+<section class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-12"><h3>Галерея вариант 2</h3></div>
+			<div class="col-12 slideshow">
+				<div class="slideshow_display">
+					<img src="images/1.jpg" alt="">
+				</div>
+				<div class="slideshow_list">
+					<div class="col-4 pl-0 slideshow_item">
+						<a class="slideshow_pic" href="#!">
+							<img src="images/1.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-4 slideshow_item">
+						<a class="slideshow_pic" href="#!">
+							<img src="images/2.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-4 pr-0 slideshow_item">
+						<a class="slideshow_pic" href="#!">
+							<img src="images/3.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <footer>
     <div class="container">
 	
@@ -484,8 +464,13 @@
 	<script src="js/accordeon/accordeon.js"> </script>
 	<?/*скрипт для аккордеона*/?>
 	
-	<script src="js/popup/popup.js"> </script>
+	<?/*скрипты для всплывающих окон*/?>
 	<script src="js/popup/modal-click.js"> </script>
 	<script src="js/popup/modal-enter.js"> </script>
+	<?/*скрипты для всплывающих окон*/?>
+	
+	<?/*скрипт для галлереи-2*/?>
+	<script src="js/gallery/gallery-2.js"> </script>
+	<?/*скрипт для галлереи-2*/?>
 </body>
 </html>

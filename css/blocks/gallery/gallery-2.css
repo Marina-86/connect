@@ -1,0 +1,43 @@
+.slideshow {
+
+}
+
+.slideshow_display {
+	width: 500px;
+	height: 400px;
+	border: 1px solid #ccc;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slideshow_display img {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 100%;
+}
+
+.slideshow_list {
+	display: flex;
+	display: flex;
+    padding: 15px 0;
+    height: 190px;
+}
+.slideshow_item {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.slideshow_pic {
+	
+}
+
+.slideshow_pic img {
+	width: 100%;
+}
