@@ -9,7 +9,8 @@ $(document).ready(function() {
 			display = container.find('.slideshow_display'), /* сохранияе блок для большой картинки, для этого находим в контейнере блок в котором она лежит*/
 			path = item.find('img').attr('src'), /* при клике вырезаем путь и вставляем в блок с большой картинкой, для этого ищем в блоке по которому кликаем картику и забираем у нее путь*/
 			duration = 300; // время анимации
-		
+			
+		//задаем как работает
 		if (!item.hasClass('active')){ // если при клике нет класса active
 			item.addClass('active').siblings().removeClass('active'); //добавляем у соседних убираем
 			
