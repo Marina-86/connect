@@ -3,12 +3,15 @@
 @import url('clean.css');
 @import url('blocks/slide/slide.css');
 @import url('blocks/slide/slide-2.css');
+@import url('blocks/slide/slide-3.css');
 @import url('blocks/gallery/gallery.css');
 @import url('blocks/gallery/gallery-2.css');
 @import url('blocks/font/font.css');
 @import url('blocks/tabs/tabs.css');
 @import url('blocks/accordeon/accordeon.css');
 @import url('blocks/popup/popup.css');
+@import url('blocks/nav/nav-single-page.css');
+@import url('blocks/nav/change-screen.css');
 
 
 

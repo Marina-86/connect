@@ -1,0 +1,85 @@
+.slider-my {
+	position: relative;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+}
+.slider-my_list-wrap {
+	
+}
+.slider-my_list {
+	width: 100%;
+	position: relative;
+	transition: .3s;
+	overflow: hidden;
+	height: 257px;
+}
+.slider-my_item {
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	z-index: 0;
+}
+.slider-my_item img {
+	width: 100%
+}
+.slider-my_item.active {
+	z-index: 1;
+	position: relative;
+}
+.slider-my_item.inslide { /*класс завершающий анимацию*/
+	z-index: 2;
+}
+.slider-my_controls-button {
+	position: absolute;
+	top: 50px;
+}
+.slider-my_controls-button_next {
+	right: -100px;
+}
+.slider-my_controls-button_prev {
+	left: -100px;
+}
+
+
+
+
+.slider-my_dots {
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+	width: 100%;
+	z-index: 3;
+}
+.slider-my_dots-item {
+	display: block;
+    background: green;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px 0 0;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+.slider-my_dots-item:last-child {
+	margin: 0 0 0 0;
+}
+.slider-my_dots-item:hover {
+	background: red;
+	border: 1px solid green;
+}
+.slider-my_dots-item:focus {
+	background: red;
+	border: 1px solid green;
+}
+.slider-my_dots-item.active {
+	background: red;
+	border: 1px solid green;
+}
