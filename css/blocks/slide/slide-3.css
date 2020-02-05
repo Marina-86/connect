@@ -7,7 +7,8 @@
 	width: 40%;
 }
 .slider-my_list-wrap {
-	
+	display: flex;
+	position: relative;
 }
 .slider-my_list {
 	width: 100%;
@@ -56,6 +57,7 @@
     justify-content: center;
     position: absolute;
     bottom: 15px;
+	left: 0;
 	width: 100%;
 	z-index: 3;
 }

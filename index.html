@@ -3,9 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		
+		<!--кросбраузерность IE-->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="js/html5shiv.js"> </script>
+			<script src="libs/respond/ scottjehl-Respond-9d91fd4/dest/respond.min.js"> </script>
 		<![endif]-->
+		<script src="libs/modernizr/modernizr.min.js"></script> 
+		<!--кросбраузерность IE-->
 		
 		<link href="css/index.css" type="text/css"  rel="stylesheet">
 		
@@ -563,7 +568,50 @@
 				</div>
 			</div>
 		</section>
-		
+		<section class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-12"><h3>Bootstrap сетка+responsive img</h3></div>
+					<div class="d-lg-none col-4" hidden="lg"> <!--hidden="lg" скрыть не нужное не рекомендовано применять-->
+						<img src="images/1.jpg" alt="1" class="img-fluid">
+					</div>
+					<div class="col-4">
+						<img src="images/2.jpg" alt="2" class="img-fluid">
+					</div>
+					<div class="col-4">
+						<img src="images/3.jpg" alt="3" class="img-fluid">
+					</div>
+					<div class="col-12 order-lg-2"> <!--order-lg-2 - меняет местами-->
+						<img src="images/2.jpg" alt="2" class="img-fluid">
+					</div>
+					<div class="col-12 order-lg-1">
+						<img src="images/3.jpg" alt="3" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-12"><h3>Bootstrap сетка+responsive img</h3></div>
+					<div class="d-lg-none col-4" hidden="lg"> <!--hidden="lg" скрыть не нужное не рекомендовано применять-->
+						<img src="images/1.jpg" alt="1" class="img-fluid">
+					</div>
+					<div class="col-4">
+						<img src="images/2.jpg" alt="2" class="img-fluid">
+					</div>
+					<div class="col-4">
+						<img src="images/3.jpg" alt="3" class="img-fluid">
+					</div>
+					<div class="col-12 order-lg-2"> <!--order-lg-2 - меняет местами-->
+						<img src="images/2.jpg" alt="2" class="img-fluid">
+					</div>
+					<div class="col-12 order-lg-1">
+						<img src="images/3.jpg" alt="3" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
 		<footer>
 			<div class="container">
 			
@@ -635,7 +683,5 @@
 		<?/*скрипт для навигации по одностроничному сайту*/?>
 		<script src="js/nav/nav-single-page.js"> </script>
 		<?/*скрипт для навигации по одностроничному сайту*/?>
-		
-		
 	</body>
 </html>
