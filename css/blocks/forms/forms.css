@@ -1,0 +1,20 @@
+h1{
+  margin-bottom: 40px;
+}
+.tooltip-inner {
+    white-space:pre;
+    max-width:none;
+}
+.bg-success, .bg-danger{
+	margin-bottom: 15px;
+	padding: 15px;
+}
+input:required + .help-text::before {
+ content: '*Required';
+}
+1
+2
+3
+input:required + .help-text::before {
+    content: '*Required';
+}
