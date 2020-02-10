@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');/*импорт шрифтов*/
+
 @import url('core.css');
 @import url('clean.css');
 @import url('blocks/slide/slide.css');
@@ -12,3 +13,5 @@
 @import url('blocks/popup/popup.css');
 @import url('blocks/nav/nav-single-page.css');
 @import url('blocks/forms/forms.css');
+
+@import 'macket-bem/style-bem.css';
